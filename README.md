@@ -65,11 +65,3 @@ Also fixed: pointer arithmetic in `deallocate()` now subtracts from `pool_.get()
 - See `benchmark-fix-notes.md` for a readable before/after explanation.
 
 ---
-
-If you want, I can also:
-
-- Add a CMakeLists.txt for cross-platform builds.
-- Add a small test harness that runs the benchmark with different `NUM_ALLOCATIONS` values.
-- Convert `benchmark-fix-notes.md` into a short changelog entry.
-
-Tell me which you'd like next.
